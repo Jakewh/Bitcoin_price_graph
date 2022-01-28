@@ -1,5 +1,6 @@
 import pandas as pd
 import bar_chart_race as bcr
+import kokot
 
 """
  ____ _____ ____              _                                  _     
