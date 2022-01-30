@@ -12,7 +12,6 @@ import bar_chart_race as bcr
 
 # vstupní data
 df = pd.read_csv("/home/jakub/GitHub/Bitcoin_price_graph/data/BTCUSD_day.csv", index_col = "Date"),
-df.fillna(0.0, inplace = True)
 
 bcr.bar_chart_race(
     df = df[:2],
@@ -27,6 +26,8 @@ bcr.bar_chart_race(
         "facecolor" : "#F8FAFF"  # barva pozadí
     },
     steps_per_period = 50,
-    period_length = 1500 
+    period_length = 1500,
+    n_bars = 1647,
+    fixed_max = False
 )
 
