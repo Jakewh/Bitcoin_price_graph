@@ -14,7 +14,8 @@ import bar_chart_race as bcr
 df = pd.read_csv("/home/jakub/GitHub/Bitcoin_price_graph/data/BTCUSD_day.csv", index_col = "Date"),
 
 bcr.bar_chart_race(
-    df = df[:2],
+    df = df[:1],
+    period_fmt = "% Y, % b % -d ",
     # výstupní soubor
     filename = "/home/jakub/Github/Bitcoin_price_graph/video.mp4",
     # složka s logem BTC
