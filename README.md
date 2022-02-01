@@ -1,5 +1,5 @@
 # Bitcoin price graph
 🪙 Vývoj ceny BTC, ETH  a LTC 2015 - 2020
 
-<img src=https://github.com/Jakewh/Bitcoin_price_graph/blob/e3d71dffcedbc1e62785ba4bc013fd24527c878d/Peek%202022-02-01%2015-25.gif>
+<img src=https://github.com/Jakewh/Crypto_price_graph/blob/7047e42661de8975ec4074242f992b8c6e028175/crypto.gif>
  
