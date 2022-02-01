@@ -25,12 +25,7 @@ bcr.bar_chart_race(
     df = Subsetdf,  # data pro graf
     filename = "/home/jakub/GitHub/Bitcoin_price_graph/BTCUSD.mp4",  # výstupní soubor
     img_label_folder = "/home/jakub/GitHub/Bitcoin_price_graph/data",  # složka s obrázkem btc
-    # nastavení obázku btc
-    #fig_kwargs = {
-        #"figsize": (30, 18),  # velikost
-        #"dpi" : 100,  #  dpi
-        #"facecolor" : "#F8FAFF"  # barva pozadí
-   # },
     title = "Vývoj ceny BTC/USD 2015 - 2020",  # titulek grafu
-    fixed_max = True
+    fixed_max = True,  # zastavení pohybu osy y
+    colors = ["#EBB326"]  # žlutooranžová barva grafu
 )
