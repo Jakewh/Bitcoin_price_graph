@@ -26,10 +26,11 @@ bcr.bar_chart_race(
     filename = "/home/jakub/GitHub/Bitcoin_price_graph/BTCUSD.mp4",  # výstupní soubor
     img_label_folder = "/home/jakub/GitHub/Bitcoin_price_graph/data",  # složka s obrázkem btc
     # nastavení obázku btc
-    fig_kwargs = {
-        "figsize": (26, 15),  # velikost
-        "dpi" : 120,  #  dpi
-        "facecolor" : "#F8FAFF"  # barva pozadí
-    },
-    title = "Vývoj ceny BTCUSD"  # titulek grafu
+    #fig_kwargs = {
+        #"figsize": (30, 18),  # velikost
+        #"dpi" : 100,  #  dpi
+        #"facecolor" : "#F8FAFF"  # barva pozadí
+   # },
+    title = "Vývoj ceny BTC/USD 2015 - 2020",  # titulek grafu
+    fixed_max = True
 )
